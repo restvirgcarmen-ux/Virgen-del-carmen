@@ -120,3 +120,74 @@ font-size:34px;
     margin:25px auto;
     line-height:1.5;
 }
+
+.historia{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    padding:80px 10%;
+    background:#fffdf8;
+}
+
+.historia-imagen img{
+    width:350px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.historia-texto{
+    max-width:700px;
+}
+
+.historia-texto h2{
+    font-size:42px;
+    color:#c62828;
+    margin-bottom:20px;
+}
+
+.historia-texto p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:18px;
+}
+
+.datos{
+    display:flex;
+    gap:20px;
+    margin-top:35px;
+    flex-wrap:wrap;
+}
+
+.datos div{
+    flex:1;
+    min-width:150px;
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+}
+
+.datos h3{
+    color:#d62828;
+    font-size:30px;
+}
+
+.datos span{
+    font-size:15px;
+}
+
+@media(max-width:768px){
+
+.historia{
+flex-direction:column;
+padding:60px 25px;
+text-align:center;
+}
+
+.historia-imagen img{
+width:260px;
+}
+
+}
