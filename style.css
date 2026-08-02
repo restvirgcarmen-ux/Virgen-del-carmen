@@ -187,7 +187,11 @@ text-align:center;
 }
 
 .historia-imagen img{
-width:260px;
+    width:340px;
+    height:340px;
+    object-fit:cover;
+    border-radius:50%;
+    border:8px solid #fff;
 }
 
 }
