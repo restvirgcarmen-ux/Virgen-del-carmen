@@ -101,3 +101,8 @@ font-size:34px;
 }
 
 }
+.logo{
+    width:160px;
+    max-width:45%;
+    margin-bottom:20px;
+}
