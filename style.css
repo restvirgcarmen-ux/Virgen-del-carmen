@@ -187,11 +187,11 @@ text-align:center;
 }
 
 .historia-imagen img{
-    width:340px;
-    height:340px;
+    width:360px;
+    height:360px;
     object-fit:cover;
     border-radius:50%;
-    border:8px solid #fff;
+    border:18px solid #fff;
 }
 
 }
