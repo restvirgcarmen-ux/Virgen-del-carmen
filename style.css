@@ -110,3 +110,11 @@ font-size:34px;
     padding:10px;
     box-shadow:0 10px 30px rgba(0,0,0,.45);
 }
+
+.frase{
+    font-size:18px;
+    color:#f8d66d;
+    font-style:italic;
+    margin:15px 0 30px;
+    text-shadow:2px 2px 8px rgba(0,0,0,.7);
+}
