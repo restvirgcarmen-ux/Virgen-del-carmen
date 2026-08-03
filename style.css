@@ -717,6 +717,71 @@ height:320px;
 
 }
 
+/*====================================
+GALERÍA
+====================================*/
+
+.galeria{
+
+    padding:70px 8%;
+    background:#ffffff;
+
+}
+
+.galeria h2{
+
+    text-align:center;
+    font-size:42px;
+    color:#b71c1c;
+    margin-bottom:15px;
+
+}
+
+.galeria .descripcion-platos{
+
+    text-align:center;
+    color:#666;
+    margin-bottom:45px;
+
+}
+
+.contenedor-galeria{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+.contenedor-galeria img{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.35s;
+
+    cursor:pointer;
+
+}
+
+.contenedor-galeria img:hover{
+
+    transform:scale(1.05);
+
+}
 @media (min-width:1200px){
 
 .hero{
