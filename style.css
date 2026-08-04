@@ -37,8 +37,8 @@ a{
     min-height:90vh;
 
     background:
-    linear-gradient(rgba(0,0,0,.55),
-    rgba(0,0,0,.60)),
+    linear-gradient(rgba(0,0,0,.40),
+    rgba(0,0,0,.45)),
     url("imagenes/portada.jpg");
 
     background-size:cover;
@@ -63,7 +63,7 @@ NAVBAR
 
     align-items:center;
 
-    padding:20px 8%;
+    padding:18px 6%;
 
     position:fixed;
 
@@ -127,7 +127,8 @@ PORTADA
 
     flex-direction:column;
 
-    justify-content:center;
+    justify-content: flex-start;
+    padding-top: 170px;
 
     align-items:center;
 
@@ -744,7 +745,7 @@ height:320px;
 }
 
 .logo-menu img{
-    width:55px;
+    width:60px;
 }
 
 .menu{
@@ -763,15 +764,15 @@ height:320px;
 
 .hero-destacados div{
 
-    min-width:90px;
+    min-width:95px;
 
-    padding:10px;
+    padding: 8px 10px;
 
 }
 
 .hero-destacados span{
 
-    font-size:12px;
+    font-size:11px;
 
 }
 /*====================================
