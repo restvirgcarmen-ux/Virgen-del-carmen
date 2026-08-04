@@ -754,6 +754,26 @@ height:320px;
 .menu a{
     font-size:14px;
 }
+
+ .hero-destacados{
+
+    gap:12px;
+
+}
+
+.hero-destacados div{
+
+    min-width:90px;
+
+    padding:10px;
+
+}
+
+.hero-destacados span{
+
+    font-size:12px;
+
+}
 /*====================================
 GALERÍA
 ====================================*/
@@ -817,6 +837,46 @@ GALERÍA
 .contenedor-galeria img:hover{
 
     transform:scale(1.05);
+
+}
+
+ .hero-destacados{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-destacados div{
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(8px);
+
+    padding:12px 18px;
+
+    border-radius:15px;
+
+    color:#fff;
+
+    text-align:center;
+
+    min-width:110px;
+
+}
+
+.hero-destacados span{
+
+    font-size:13px;
+
+    font-weight:500;
 
 }
 @media (min-width:1200px){
