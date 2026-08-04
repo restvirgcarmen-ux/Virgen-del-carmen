@@ -245,7 +245,7 @@ PORTADA
 
     object-fit:cover;
 
-    object-position: center 30%;
+    object-position: center -30%;
 
     border-radius:50%;
 
@@ -253,7 +253,7 @@ PORTADA
 
     box-shadow:0 15px 40px rgba(0,0,0,.18);
 
-    transform: scale(o.85);
+    transform: scale(o.65);
 
 }
 
