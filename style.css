@@ -245,17 +245,13 @@ PORTADA
 
     object-fit:cover;
 
-    object-position: center 15%;
+    object-position: center 30%;
 
     border-radius:50%;
 
     border:8px solid white;
 
     box-shadow:0 15px 40px rgba(0,0,0,.18);
-
-    position: relative;
-
-    top: 20px;
 
 }
 
