@@ -245,6 +245,8 @@ PORTADA
 
     object-fit:cover;
 
+    object-position: center 15%;
+
     border-radius:50%;
 
     border:8px solid white;
