@@ -615,6 +615,10 @@ CONTACTO
     text-align:center;
     color:#fff;
     transition:.3s;
+    color:#fff !important;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
 
 }
 
