@@ -265,6 +265,20 @@ PORTADA
 
 }
 
+.fechas{
+    margin-top:6px;
+    color:#777;
+    font-size:18px;
+    font-weight:500;
+}
+
+.fundadora{
+    margin-top:4px;
+    color:#999;
+    font-size:20px;
+    font-style:italic;
+}
+
 .historia-imagen span{
 
     color:#777;
