@@ -149,6 +149,20 @@ PORTADA
 
 }
 
+.titulo-superior{
+    display:block;
+    font-size:0.55em;
+    font-weight:600;
+    margin-bottom:8px;
+}
+
+.titulo-principal{
+    display:block;
+    font-size:1.35em;
+    font-weight:700;
+    line-height:1.05;
+}
+
 .subtitulo{
 
     font-size:26px;
@@ -719,6 +733,18 @@ height:320px;
     font-size:38px;
     line-height:1.2;
     margin-bottom:12px;
+}
+
+ .titulo-superior{
+
+    font-size:0.50em;
+
+}
+
+.titulo-principal{
+
+    font-size:1.45em;
+
 }
 
  .subtitulo{
