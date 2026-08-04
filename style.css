@@ -151,14 +151,14 @@ PORTADA
 
 .titulo-superior{
     display:block;
-    font-size:0.55em;
+    font-size:0.75em;
     font-weight:600;
     margin-bottom:5px;
 }
 
 .titulo-principal{
     display:block;
-    font-size:1.35em;
+    font-size:1.20em;
     font-weight:700;
     line-height:1.05;
 }
