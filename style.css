@@ -239,13 +239,13 @@ PORTADA
 
 .historia-imagen img{
 
-    width:300px;
+    width:340px;
 
-    height:300px;
+    height:340px;
 
     object-fit:cover;
 
-    object-position: center -30%;
+    object-position: center;
 
     border-radius:50%;
 
