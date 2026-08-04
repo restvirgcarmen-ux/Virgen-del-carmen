@@ -34,7 +34,7 @@ a{
 
 .hero{
 
-    min-height:80vh;
+    min-height:90vh;
 
     background:
     linear-gradient(rgba(0,0,0,.55),
@@ -715,8 +715,45 @@ height:320px;
 
 }
 
+.hero-content h1{
+    font-size:38px;
+    line-height:1.2;
+    margin-bottom:12px;
 }
 
+ .subtitulo{
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.frase{
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:25px;
+    padding:0 10px;
+}
+
+.btn-principal{
+    padding:14px 28px;
+    font-size:16px;
+}
+
+ .navbar{
+    padding:12px 5%;
+    background:rgba(0,0,0,.65);
+}
+
+.logo-menu img{
+    width:55px;
+}
+
+.menu{
+    gap:15px;
+}
+
+.menu a{
+    font-size:14px;
+}
 /*====================================
 GALERÍA
 ====================================*/
@@ -799,6 +836,4 @@ GALERÍA
 
 .plato img{
     height:220px;
-}
-
 }
