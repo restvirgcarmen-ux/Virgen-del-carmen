@@ -606,10 +606,14 @@ CONTACTO
 .btn-wsp,
 .btn-mapa{
 
-    padding:14px 28px;
-    border-radius:40px;
+    display:inline-block;
+    padding:18px 38px;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:600;
     text-decoration:none;
-    font-weight:bold;
+    text-align:center;
+    color:#fff;
     transition:.3s;
 
 }
@@ -617,14 +621,12 @@ CONTACTO
 .btn-wsp{
 
     background:#25D366;
-    color:#fff;
 
 }
 
 .btn-mapa{
 
     background:#c62828;
-    color:#fff;
 
 }
 
