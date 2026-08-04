@@ -538,7 +538,7 @@ CONTACTO
 
 .contacto{
     background:#f8f5ef;
-    padding:70px 8%;
+    padding:90px 8%;
     text-align:center;
 }
 
@@ -546,6 +546,15 @@ CONTACTO
     font-size:48px;
     color:#b71c1c;
     margin-bottom:15px;
+    text-align:center;
+}
+
+.sub-contacto{
+    text-align:center;
+    color:#777;
+    font-size:18px;
+    margin-top:-10px;
+    margin-bottom:35px;
 }
 
 .contacto p{
@@ -587,6 +596,13 @@ CONTACTO
     flex-wrap:wrap;
 }
 
+.btn-principal{
+    padding:18px 38px;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:600;
+}
+
 .btn-wsp,
 .btn-mapa{
 
@@ -625,7 +641,7 @@ CONTACTO
     height:420px;
     border:none;
     border-radius:20px;
-    box-shadow:0 15px 40px rgba(0,0,0,.1);
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
 
 }
 
