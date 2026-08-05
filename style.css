@@ -876,7 +876,7 @@ GALERÍA
 
 .galeria{
 
-    padding:120px 8% 70px;
+    padding:70px 8%;
     background:#ffffff;
 
 }
@@ -920,9 +920,9 @@ GALERÍA
 
     object-fit:cover;
 
-    border-radius:18px;
+    border-radius:22px;
 
-    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
 
     transition:.35s;
 
@@ -932,7 +932,8 @@ GALERÍA
 
 .contenedor-galeria img:hover{
 
-    transform:scale(1.05);
+    transform:scale(1.06);
+    box-shadow:0 20px 45px rgba(0,0,0,.22);
 
 }
 
@@ -993,3 +994,20 @@ GALERÍA
 .plato img{
     height:220px;
 }
+
+ @media(max-width:768px){
+
+    .contenedor-galeria{
+
+        grid-template-columns:repeat(2,1fr);
+        gap:18px;
+
+    }
+
+    .contenedor-galeria img{
+
+        height:180px;
+
+    }
+
+ }
