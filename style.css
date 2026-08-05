@@ -1,6 +1,9 @@
-/* ===========================
-   RESTAURANT VIRGEN DEL CARMEN
-=========================== */
+/*==================================================
+  RESTAURANT & PICANTERÍA VIRGEN DEL CARMEN
+  BLOQUE 1 - RESET · BASE · NAVBAR · HERO
+==================================================*/
+
+/* RESET */
 
 *{
     margin:0;
@@ -20,71 +23,60 @@ body{
 }
 
 img{
-    width:100%;
     display:block;
+    width:100%;
 }
 
 a{
     text-decoration:none;
 }
 
-/* ===========================
-   PORTADA
-=========================== */
+/*==================================================
+  HERO
+==================================================*/
 
 .hero{
 
     min-height:90vh;
 
     background:
-    linear-gradient(rgba(0,0,0,.40),
-    rgba(0,0,0,.45)),
-    url("imagenes/portada.jpg");
+        linear-gradient(rgba(0,0,0,.40),
+        rgba(0,0,0,.45)),
+        url("imagenes/portada.jpg");
 
     background-size:cover;
-
     background-position:center;
-
     display:flex;
-
     flex-direction:column;
 
 }
 
-/* ===========================
-NAVBAR
-=========================== */
+/*==================================================
+  NAVBAR
+==================================================*/
 
 .navbar{
 
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
 
     padding:18px 6%;
 
-    position:fixed;
-
-    width:100%;
-
-    top:0;
-
-    left:0;
-
-    z-index:1000;
-
     background:rgba(0,0,0,.35);
 
-    /* backdrop-filter:blur(8px); */
+    z-index:1000;
 
 }
 
 .logo-menu img{
 
     width:70px;
-
     border-radius:50%;
 
 }
@@ -92,7 +84,6 @@ NAVBAR
 .menu{
 
     display:flex;
-
     gap:30px;
 
     list-style:none;
@@ -102,38 +93,34 @@ NAVBAR
 .menu a{
 
     color:#fff;
-
     font-weight:500;
-
-    transition:.3s;
+    transition:.30s;
 
 }
 
 .menu a:hover{
 
-    color:#ffd34d;
+    color:#FFD54F;
 
 }
 
-/* ===========================
-PORTADA
-=========================== */
+/*==================================================
+  CONTENIDO HERO
+==================================================*/
 
 .hero-content{
 
     flex:1;
 
     display:flex;
-
     flex-direction:column;
 
-    justify-content: center;
-
+    justify-content:center;
     align-items:center;
 
     text-align:center;
 
-    color:white;
+    color:#fff;
 
     padding:20px;
 
@@ -142,43 +129,42 @@ PORTADA
 .hero-content h1{
 
     font-size:58px;
-
     line-height:1.1;
-
     margin-bottom:15px;
 
 }
 
 .titulo-superior{
+
     display:block;
-    font-size:0.75em;
+    font-size:.75em;
     font-weight:600;
     margin-bottom:5px;
+
 }
 
 .titulo-principal{
+
     display:block;
     font-size:1.20em;
     font-weight:700;
     line-height:1.05;
+
 }
 
 .subtitulo{
 
     font-size:26px;
-
-    color:#ffd34d;
-
+    color:#FFD54F;
     margin-bottom:20px;
 
 }
 
 .frase{
 
-    font-size:20px;
-
     max-width:750px;
 
+    font-size:20px;
     line-height:1.7;
 
     margin-bottom:35px;
@@ -187,9 +173,10 @@ PORTADA
 
 .btn-principal{
 
-    background:#c62828;
+    display:inline-block;
 
-    color:white;
+    background:#C62828;
+    color:#fff;
 
     padding:15px 40px;
 
@@ -197,15 +184,53 @@ PORTADA
 
     font-weight:600;
 
-    transition:.3s;
+    transition:.30s;
 
 }
 
 .btn-principal:hover{
 
-    background:#a30000;
-
+    background:#A30000;
     transform:translateY(-3px);
+
+}
+
+/*==================================================
+  DESTACADOS HERO
+==================================================*/
+
+.hero-destacados{
+
+    margin-top:35px;
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-destacados div{
+
+    min-width:110px;
+
+    padding:12px 18px;
+
+    text-align:center;
+
+    color:#fff;
+
+    border-radius:15px;
+
+    background:rgba(255,255,255,.15);
+
+}
+
+.hero-destacados span{
+
+    font-size:13px;
+    font-weight:500;
 
 }
 
