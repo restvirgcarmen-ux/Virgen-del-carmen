@@ -936,7 +936,24 @@ GALERÍA
     box-shadow:0 20px 45px rgba(0,0,0,.22);
 
 }
+   
+@media(max-width:768px){
 
+    .contenedor-galeria{
+
+        grid-template-columns:repeat(2,1fr);
+        gap:18px;
+
+    }
+
+    .contenedor-galeria img{
+
+        height:180px;
+
+    }
+
+}
+   
  .hero-destacados{
 
     margin-top:35px;
@@ -976,6 +993,7 @@ GALERÍA
     font-weight:500;
 
 }
+   
 @media (min-width:1200px){
 
 .hero{
@@ -994,20 +1012,3 @@ GALERÍA
 .plato img{
     height:220px;
 }
-
- @media(max-width:768px){
-
-    .contenedor-galeria{
-
-        grid-template-columns:repeat(2,1fr);
-        gap:18px;
-
-    }
-
-    .contenedor-galeria img{
-
-        height:180px;
-
-    }
-
- }
