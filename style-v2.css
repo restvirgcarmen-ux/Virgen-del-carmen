@@ -909,6 +909,24 @@ GALERÍA
 
 }
 
+.ayuda-galeria{
+
+    text-align:center;
+    color:#777;
+    font-size:15px;
+    font-style:italic;
+    margin-top:-20px;
+    margin-bottom:35px;
+
+}
+
+.ayuda-galeria i{
+
+    color:#b71c1c;
+    margin-right:6px;
+
+}
+  
 .contenedor-galeria{
 
     display:grid;
