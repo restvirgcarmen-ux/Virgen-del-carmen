@@ -1024,35 +1024,35 @@ GALERÍA
     height:220px;
 }
 
+}
+
  /*====================================
 LIGHTBOX GALERÍA
 ====================================*/
 
 .lightbox{
-    position: fixed;
-    insert: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(20,20,20,.75);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
+    position:fixed;
+    inset:0;
+    background:rgba(20,20,20,.75);
+    display:none;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
 }
 
 .lightbox img{
-    max-width: 90%;
-    max-height: 90%;
-    border-radius: 15px;
+    max-width:90%;
+    max-height:90%;
+    width:auto;
+    height:auto;
+    border-radius:15px;
 }
 
 .cerrar{
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 45px;
-    color: white;
-    cursor: pointer;
-  }
+    position:absolute;
+    top:20px;
+    right:30px;
+    font-size:45px;
+    color:#fff;
+    cursor:pointer;
+}
