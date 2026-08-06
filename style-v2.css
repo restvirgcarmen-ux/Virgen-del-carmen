@@ -1041,13 +1041,14 @@ LIGHTBOX GALERÍA
 }
 
 .lightbox img{
-    max-width:90%;
-    max-height:90%;
+    max-width:95%;
+    max-height:95vh;
     width:auto;
     height:auto;
+    object-fit:contain;
     border-radius:15px;
 }
-
+  
 .cerrar{
     position:absolute;
     top:20px;
