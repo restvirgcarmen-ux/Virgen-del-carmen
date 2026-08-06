@@ -881,6 +881,9 @@ height:320px;
     font-size:11px;
 
 }
+
+}
+
 /*====================================
 GALERÍA
 ====================================*/
@@ -948,8 +951,6 @@ GALERÍA
 
 }
 
-}
-
 @media(max-width:768px){
 
     .contenedor-galeria{
@@ -965,8 +966,6 @@ GALERÍA
 
     }
 
-}
-   
  .hero-destacados{
 
     margin-top:35px;
